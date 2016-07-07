@@ -125,3 +125,17 @@ $gutter: 1rem;
     }
 
 }
+
+.auth25 {
+    margin: auto;
+    font-family: $font_list;
+    margin-top: 20em;
+    @include row(false);
+    
+    
+    &_row {
+        @include row(true);
+    }
+    
+
+}
